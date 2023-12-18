@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { Canvas } from '@threlte/core';
+	import { Studio } from '@threlte/theatre';
+	import Scene from './Scene.svelte';
+
+	// Using SvelteKit
+  import { dev } from '$app/environment'
+</script>
+
+<div class="h-screen w-auto">
+	<!-- <Studio enabled={dev} /> -->
+	
+	<Canvas>
+			<Scene />
+	</Canvas>
+	
+</div>
