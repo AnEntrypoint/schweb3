@@ -4,7 +4,7 @@
 
 	const metaDefaults = {
 		title: 'schweb3',
-		description: '',
+		description: 'Hi there',
 		image: null
 	};
 	const meta = {
@@ -30,7 +30,7 @@
 	<meta name="author" content="b0gieman" />
 	<meta property="og:site_name" content="3PS" />
 	<meta property="og:type" content="website" />
-	<!-- <meta property="og:url" content="https://thirdplanet.studio{$page.url.pathname}" /> -->
+	<!-- <meta property="og:url" content="https://schwepe.247420.xyz/{$page.url.pathname}" /> -->
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:title" content={meta.title} />
 	<meta property="og:description" content={meta.description} />
@@ -42,11 +42,13 @@
 	<meta property="og:image:height" content="" />
 	<!--ALSO FIX-->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@3PlanetStudio" />
-	<meta name="twitter:creator" content="@3PlanetStudio" />
+	<meta name="twitter:site" content="@pointofentry" />
+	<meta name="twitter:creator" content="@pointofentry" />
 	<meta name="twitter:title" content={meta.twitter.title} />
 	<meta name="twitter:description" content={meta.twitter.description} />
 	<meta name="twitter:image" content={meta.twitter.image} />
 </svelte:head>
+
+<ModeWatcher/>
 
 <slot />
