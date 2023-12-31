@@ -1,5 +1,6 @@
 <script>
 	import { Canvas } from '@threlte/core';
+	import { Sky } from '@threlte/extras';
 	import { Studio } from '@threlte/theatre';
 	import Scene from './Scene.svelte';
 
@@ -11,6 +12,12 @@
 	<!-- <Studio enabled={dev} /> -->
 
 	<Canvas>
+		<!-- <Sky 
+			elevation={1} 
+			rayleigh={0.01}
+			turbidity={0}
+			exposure={0.37}
+		/> -->
 		<Scene />
 	</Canvas>
 	<div class="absolute top-10 left-0">

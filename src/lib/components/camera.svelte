@@ -4,7 +4,7 @@
 	import CameraControls from './CameraControls/CameraControls.svelte'
 	import { cameraControls } from '../stores';
 	
-	const startPos = [0, 3, 18];
+	const startPos = [0, 3, 14];
 </script>
 
 <T.PerspectiveCamera
