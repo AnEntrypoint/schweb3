@@ -5,5 +5,8 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	ssr: {
 		noExternal: ['three', 'postprocessing']
-	}
+	},
+	 build: {
+    	outDir: './build',
+ 	}
 });
