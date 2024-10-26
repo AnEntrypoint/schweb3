@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && cp -R .svelte-kit/ build/",
+		"build": "vite build && cp -R .svelte-kit/ dist/",
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check .",
 		"format": "prettier --plugin-search-dir . --write ."
