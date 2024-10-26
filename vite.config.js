@@ -6,7 +6,7 @@ export default defineConfig({
 	ssr: {
 		noExternal: ['three', 'postprocessing']
 	},
-	 build: {
-    	outDir: '/app/build',
- 	}
+	server: {
+    host: 'schwepe.247420.xyz'
+  },
 });
