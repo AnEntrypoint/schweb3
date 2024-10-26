@@ -7,6 +7,6 @@ export default defineConfig({
 		noExternal: ['three', 'postprocessing']
 	},
 	 build: {
-    	outDir: './build',
+    	outDir: '/app/build',
  	}
 });
