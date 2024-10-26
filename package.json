@@ -4,8 +4,13 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+<<<<<<< HEAD
 		"build": "vite build && cp -R .svelte-kit/ build/",
 		"preview": "vite preview ",
+=======
+		"build": "vite build && cp -R .svelte-kit/ dist/",
+		"preview": "vite preview",
+>>>>>>> 1b31f9d5211fa5d6a0528a43818263b59b5d9694
 		"lint": "prettier --plugin-search-dir . --check .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
