@@ -1,0 +1,19 @@
+{
+  "name": "mml-schweb3",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "@mml-io/mml-starter-project-overlay": "0.0.3",
+    "chokidar": "3.6.0",
+    "cors": "^2.8.5",
+    "express": "4.19.2",
+    "express-ws": "5.0.2",
+    "mml-web-client": "0.14.0",
+    "networked-dom-server": "0.14.0",
+    "ws": "8.17.0"
+  }
+}
